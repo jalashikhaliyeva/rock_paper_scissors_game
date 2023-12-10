@@ -9,6 +9,11 @@ let usrPoint = document.querySelector("#usrPoint");
 //? ________________________________________
 
 
+const playerName = prompt("Welcome to Rock Paper Scissors Game! Enter your name:");
+alert(`Hello, ${playerName}! Let's play ! Press r , p or s buttons on your keyboard`);
+
+
+
 //! comp_____________________________________   
 let compScore = document.querySelector("#compScore"); 
 let compImg = document.querySelector("#compImg"); 
